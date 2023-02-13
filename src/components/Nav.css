@@ -1,4 +1,45 @@
 .header_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: goldenrod;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.logo {
+  display: flex;
+}
+.logo span {
+  margin-bottom: 5px;
+  align-self: center;
+}
+.logo span .slogan {
+  margin-left: 7rem;
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(228, 35, 109);
+}
+.logo img {
+  height: 80px;
+  width: 100px;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.nav_bar li button {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: goldenrod;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.nav_bar li button:hover {
+  background-color: darkgoldenrod;
+  color: black;
 }
