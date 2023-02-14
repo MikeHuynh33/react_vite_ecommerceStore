@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import logo from "../assets/images/logo.jpeg";
+
 const Nav = () => {
   return (
     <div className="header_container">

@@ -1,0 +1,15 @@
+.homepage_container {
+  display: grid;
+  grid-template-columns: [first] 10% [line2] 55% [line3] 25% [line4] 10%;
+  grid-template-rows: repeat(4, 30rem [col-start]);
+}
+.dev_container_left {
+  border: 1px solid black;
+  grid-column-start: line2;
+  grid-column-end: line3;
+}
+.dev_container_right {
+  border: 1px solid black;
+  grid-column-start: line3;
+  grid-column-end: line4;
+}
